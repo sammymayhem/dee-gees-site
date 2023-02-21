@@ -1,0 +1,28 @@
+.header {
+    background-color: black !important;
+    opacity: .6;
+    color: white;
+}
+
+.navbar>.container {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-self: flex-end;
+}
+
+.link1 {
+    padding-left: 20px;
+}
+
+.link2 {
+    padding-right: 20px;
+}
+
+#nav-link {
+    color: white !important;
+    text-decoration: none;
+}
