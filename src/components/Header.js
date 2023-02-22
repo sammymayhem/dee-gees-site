@@ -6,9 +6,9 @@ function Header() {
     return (
         <div className='header'>
             <Navbar variant="dark">
-                <Navbar.Brand className='link1' as={Link} to='/'>Dee Gee's</Navbar.Brand>
+                <Navbar.Brand className='link1' as={Link} to='/'>The Dee Gee's</Navbar.Brand>
                 <Container className='nav'>
-                    <Nav className="justify-content-end">
+                    <Nav className="nav-container">
                         <Link className='link2' id='nav-link' as={Link} to='/tour'>Tour</Link>
                         <Link className='link3' id='nav-link' as={Link} to='/merch'>Merch</Link>
                     </Nav>
