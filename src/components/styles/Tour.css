@@ -27,4 +27,5 @@
     border-color: white !important;
     justify-content: space-between !important;
     display: flex;
+    border-bottom: 1px solid white !important;
 }
