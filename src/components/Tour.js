@@ -3,6 +3,7 @@ import { ListGroup } from 'react-bootstrap';
 
 function Tour() {
 
+    // List of tour dates
     const tour = [
         {
             city: 'Fort Worth',
@@ -201,6 +202,7 @@ function Tour() {
         },
     ]
 
+    // Create the list item for each tour date
     const renderTour = (tour, index) => {
         return (
             <ListGroup className='tour-list' variant="flush">
@@ -209,6 +211,7 @@ function Tour() {
         )
     }
 
+    // Map over tour dates and have them all listed
     return (
         <div className='tour'>
             <div className='tour-title'>
