@@ -11,15 +11,14 @@
 
 .list-cont {
     width: 50%;
+    margin-bottom: 100px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .tour-title {
     color: white;
     padding-bottom: 20px;
-}
-
-.tour-us {
-    color: white;
 }
 
 .list-group-item {
@@ -28,9 +27,4 @@
     border-color: white !important;
     justify-content: space-between !important;
     display: flex;
-}
-
-.date {
-    align-self: end !important;
-    display: flex !important;
 }
